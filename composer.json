@@ -1,0 +1,23 @@
+{
+    "name": "z14/dol",
+    "description": "a php framework",
+    "keywords": [],
+    "authors": [
+		{
+			"name": "Dot Craft",
+			"email": "z@arcz.ee",
+			"homepage": "https://arcz.ee",
+			"role": "Developer"
+		}
+	],
+    "homepage": "https://github.com/z14/dol",
+	"license": "GPL-2.0",
+    "require": {
+        "twig/twig": "^2.11"
+    },
+	"autoload": {
+		"psr-4": {
+			"App\\": "src/"
+		}
+	}
+}
